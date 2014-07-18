@@ -1,0 +1,16 @@
+name = CDL Slideshow
+description = Display a slideshow on the home page
+core = 7.x
+package = CDL
+version = 7.x-1.0
+project = cdl_slideshow
+dependencies[] = features
+dependencies[] = image
+dependencies[] = text
+features[features_api][] = api:2
+features[field_base][] = body
+features[field_base][] = field_slide_image
+features[field_instance][] = node-slide-body
+features[field_instance][] = node-slide-field_slide_image
+features[node][] = slide
+project path = sites/all/modules/features

@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the CDL Slideshow feature.
+ */
+
+include_once 'cdl_slideshow.features.inc';
